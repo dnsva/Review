@@ -3,64 +3,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-
-<style>
-    .collapsible {
-    background-color: rgb(237, 237, 237);
-    color: rgb(0, 0, 0);
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-    }
-    .active, .collapsible:hover {
-    background-color: rgb(236, 153, 229);
-    }
-    .content {
-    padding: 0 18px;
-    display: none;
-    overflow: hidden;
-    background-color: #f1f1f1;
-    }
-</style>
-
+  <head>
+    <title>Computer Science</title>
+    
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-<p>A Collapsible:</p>
-<button type="button" class="collapsible">Open Collapsible</button>
-<div class="content">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
-
-
-<script>
-var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
-    }
-  });
-}
-</script>
-
 </body>
-</html>
 
-
-<!USE THIS FOR A COLLABSIBLE (TEMPLATE)>
-<!p>TEST NESTED DIV</p>
-<!button type="button" class="collapsible">Output</button>
-<!div class="content">
-<!p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-<!/div> 
+<script src="script.js"></script> 
