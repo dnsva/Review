@@ -5,7 +5,7 @@ background-color: red; /* For browsers that do not support gradients */
 background-image: linear-gradient(to bottom right, red, yellow);
 }
 
-body { background-image: linear-gradient(to bottom right, royalblue, white);}
+body { background-image: linear-gradient(to bottom right, red, white);}
 /*background-image:linear-gradient(to bottom right, royalblue blue);*/
 
 /*FOR TABLE*/
