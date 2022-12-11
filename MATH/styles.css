@@ -15,6 +15,10 @@ border-collapse: collapse;
 text-align:start;
 }
 
+summary{
+    font-size: 20px;
+}
+
 /*FOR COLLAPSIBLE BUTTON*/
 .collapsible {
 background-color: rgb(251, 251, 251);
